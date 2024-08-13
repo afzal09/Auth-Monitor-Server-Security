@@ -35,3 +35,8 @@ pip_check_install tailer
 pip_check_install sendgrid
 
 echo "All necessary packages are checked and installed."
+echo "intialising Virtual Environment"
+python3 -m venv .
+echo "Virtual Environment created"
+echo "Running Script"
+python3 monitor.py
