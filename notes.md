@@ -9,17 +9,23 @@ Date : Friday 09 August
 ---
 Notes
  
-- [X] acces the /var/log/auth.log file
-- [X] get last line of file
-- [X] access data time elements
-- [X]  sort the dat to get the service type for ssh and sudo 
-- [X]  make function for ssh and sudo that will trigger actions when occured
-
+- [X]   acces the /var/log/auth.log file
+- [X]   get last line of file
+- [X]   access data time elements
+- [X]   sort the dat to get the service type for ssh and sudo 
+- [X]   make function for ssh and sudo that will trigger actions when occured
+- [X]   complete working script
+- [X]    create a bash script that will check for necessary packages
+- [#]    create a systemd services that will be used to run our script
+- [X]    create a gmail account with remote-server username
+- [X]    send mail to server-admin
 ---
 Packages
 
-- [X] Tailer
-- [X] Datetime
+- [X]   Tailer
+- [X]   Datetime
+- [X]   sendgrid
+- [X]   python-dotenv
 
 example sudo log
 Aug 11 21:54:49 Atherius sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/4 ruser=afzal rhost=  user=afzal
